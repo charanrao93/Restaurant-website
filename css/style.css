@@ -1,42 +1,144 @@
-.top-navigation{
-    position: relative;
-    z-index: 10;
+body{
+    background-color: rgb(208, 218, 218);
 }
 
-.top-navigation .nav-bar{
-    padding: 15px 0px;
-    position: fixed;
-    width: 100%;
-    border-radius: 0px 0px 100px 100px;
-	transition: height .3s ease-out, background .3s ease-out, box-shadow .3s ease-out;
-	-webkit-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0);
-	-webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
-	box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
-	z-index: 100;
-}
 
-.top-navigation .navbar-light .navbar-nav .nav-link{
-	color: #010101;
-	font-size: 16px;
-	padding: 10px 20px;
-	border-radius: 4px;
-	text-transform: uppercase;
-}
-.top-navigation .navbar-light .navbar-nav .nav-item .nav-link:hover{
-	background: #d65106;
-	color: #ffffff;
-}
-.top-navigation .navbar-light .navbar-nav .nav-item.active .nav-link{
-	background: #d65106;
-	color: #ffffff;
-	border-radius: 4px;
-}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+     font-family: 'italic',Arial Narrow Bold, sans-serif;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #4CAF50;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
 
-.navbar-expand-lg .navbar-nav .dropdown-menu a.dropdown-item:hover{
-	background: #d65106;
-	color: #ffffff;
-}
-.navbar-light .navbar-toggler:hover{
-	background: #d65106;
-}
+  .navbar-brandname h1{
+    font-family: 'italic', cursive;
+     color: #4CAF50;
+     font-size: 3.0em;
+     text-transform:uppercase;
+     text-decoration: floralwhite;
+     text-shadow: 2px 2px 2px rgb(2, 2, 2);
+     margin-top: 0;
+     margin-bottom: 0;
+    }
+    .navbar-brandname span{
+        color: rgb(75, 34, 34);
+    }
+    .cover-slides{
+        height: 100vh;
+    }
+    .slides-navigation a {
+        background: #4CAF50;
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        top: 50%;
+        font-size: 20px;
+        display: block;
+        color: #fff;
+        border-radius: 4px;
+        line-height: 63px;
+        text-align: center;
+        transition: all .3s ease-in-out;
+    }
+    .slides-navigation a i{
+        font-size: 40px;
+    }
+    .slides-navigation a:hover {
+        background: #010101;
+    }
+    .cover-slides .container{
+        height: 100%;
+        position: relative;
+        z-index: 2;
+    }
+    .cover-slides .container > .row {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .cover-slides .container > .row {
+        height: 100%;
+    }
+    
+    .btn{
+        text-transform: uppercase;
+        padding: 19px 36px;
+    }
+    .btn{
+        display: inline-block;
+        font-weight: 600;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        border: 2px solid transparent;
+        padding: 12px 30px;
+        font-size: 16px;
+        line-height: 1.5;
+        border-radius: .1875rem;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+    .btn-outline-new-white {
+        color: #fff;
+        background-color: #4CAF50;
+        background-image: none;
+        border-color: #4CAF50;
+    }
+    .btn-outline-new-white:hover {
+        color: #ffffff;
+        background-color: #333333;
+        border-color: #333333;
+    }
+    
+    .overlay-background {
+        background: #333;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        opacity: 0.5;
+    }
+    
+    .cover-slides h1{
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        font-size: 64px;
+        color: #fff;
+    }
+    .cover-slides p{
+        font-size: 18px;
+        color: #fff;
+    }
+    .slides-pagination a{
+        border: 2px solid #ffffff;
+    }
+    .slides-pagination a.current{
+        background: #4CAF50;
+        border: 2px solid #4CAF50;
+    }
+    
