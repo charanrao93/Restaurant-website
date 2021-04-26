@@ -4,67 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&family=Knewave&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Freckle+Face&family=Knewave&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Freckle+Face&family=Knewave&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Freckle+Face&family=Knewave&family=Zen+Dots&display=swap" rel="stylesheet">
+<script src="restaurant.js"></script>
 <style>
     body{
-  font-family: latha;
-  color: white;
-  background: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55),rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url(gold-cutlery-set-black-background.jpg)no-repeat;
-  background-size: cover;
+font-family: latha;
+color: white;
+background: linear-gradient(rgba(0,0,0,0.95),rgba(0,0,0,0.60),rgba(0,0,0,0.65),rgba(0,0,0,0.80)),url(gold-cutlery-set-black-background.jpg)  no-repeat;
+background-size: cover;
 }
 </style>
 
 </head>
 <body>
-     <div class="box">
-         <ul type="none">
-             <li><a href="index.html">Home</a></li>
-             <li><a href="menu.html">Menu</a></li>
-             <li><a href="onlineorder.html">Online order</a></li>
-             <li><a href="team.html">Team</a></li>
-             <li><a href="contact.html">Contact Us</a></li>
-         </ul>
-     </div>
-    
-     <div class="wd" >
-        <img src="brand_logo.png" width="180px" alt="logo">
-         <h1>THE TASTY COMPANY</h1>
-         <h4>The Food you Love</h4>
-         <br>
-         <div id="slider">
-        <figure>
-            <img src="slide1.jpg"  width="600px" height="200px">
-            <img src="slide2.jpg"  width="600px" height="200px">
-            <img src="slide1.jpg"  width="600px" height="200px">
-            <img src="slide3.jpg"  width="600px" height="200px">
-            <img src="slide2.jpg"  width="600px" height="200px">
-        </figure>
-     </div>
-     <br>
-     
-     <div class="opt" >
-             <form action="/reservation.html" method="post">
-                 <input type="button" sr value="Reservation" >
-             </form>
-         </div>
-     </div>
-  </div>
-  <div class="descrip">
-    <br><br><br><br><br>
-    <h1 >“Food brings people together on many different levels. It’s nourishment of the soul and body; it’s truly love.”</h1>
-    <h3 style="float: right;">– Giada De Laurentiis </h3>
-    <br><br><br><br>
-
-
-    <h1 >“Food is symbolic of love when words are inadequate.”</h1>
-    <br>
-    <h3 style="float: right;">- Alan D. Wolfelt</h3>
-    
+    <div class="box">
+        <br>
+        <ul type="none">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="onlineorder.html">Online order</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
     </div>
+    
+    
+    <div class="wd" >
+        <img src="brand_logo.png" style="float: left;" width="70px" alt="logo">
+        <h1 >THE TASTE COMPANY ®️</h1>  
+        <br>
+        <br>      
+    </div>
+
+    <div class="slidershow middle">
+        <div class="slides">
+            <input type="radio" name="r" id="r1" checked>
+            <input type="radio" name="r" id="r2">
+            <input type="radio" name="r" id="r3">
+            <input type="radio" name="r" id="r4">
+            <input type="radio" name="r" id="r5">
+            <div class="slide s1">
+                <img src="slide1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="slide2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="slide3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="slide4.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="slide5.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="navigation">
+            <label for="r1" class="bar"></label>
+            <label for="r2" class="bar"></label>
+            <label for="r3" class="bar"></label>
+            <label for="r4" class="bar"></label>
+            <label for="r5" class="bar"></label>
+        </div>
+    </div>
+
 </body>
 </html>
