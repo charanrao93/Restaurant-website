@@ -20,10 +20,6 @@
    
 }
 
-.box .current{
-  background-color: green;
-}
-
 .box ul li:hover{
   background-color: darkgreen;
 }
@@ -92,6 +88,9 @@ font-family: 'Knewave', cursive;
   padding-right: 50px;
   text-align: center;
   border-color: lawngreen;
+}
+.box .current{
+  background-color: green;
 }
 
 .opt a{
@@ -362,6 +361,8 @@ input[name="r"]{
   --warn: #e71247;
 }
 
+/* ========= Reset ========= */
+
 *,
 *::before,
 *::after {
@@ -383,13 +384,8 @@ body {
   background-color: var(--white);
 }
 
-h2{
-  font-weight: 400;
-}
-
-h3{
-  font-weight: 400;
-}
+h2,
+h3,
 h4 {
   font-weight: 400;
 }
@@ -441,7 +437,7 @@ li {
 
 .cart__icon {
   color: green;
-  size: 800px;
+  size: 600px;
 }
 
 .cart__icon span {
@@ -460,8 +456,6 @@ li {
   font-weight: 700;
   border-radius: 50%;
 }
-
-/* Products Center */
 
 .rating span svg {
   width: 1.6rem;
@@ -530,7 +524,17 @@ li {
   font-size: 1.8rem;
 }
 
-
+.cart__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 300ms ease-in-out;
+  background-color: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+  z-index: 2;
+}
 
 .cart {
   position: relative;
