@@ -2,101 +2,125 @@
     "status": "success",
     "items": [{
             "id": 1,
-            "title": "The Original Super Donut",
-            "price": 135,
+            "title": "Chicken kabab",
+            "price": 13,
             "image": "./images/product-1.jpg"
         },
         {
             "id": 2,
-            "title": "The Original Super Donut",
-            "price": 950,
+            "title": "Mutton kabab",
+            "price": 19.99,
             "image": "./images/product-2.jpg"
         },
         {
             "id": 3,
-            "title": "The Original Super Donut",
-            "price": 750,
+            "title": "Fish Kabab",
+            "price": 22.25,
             "image": "./images/product-3.jpg"
         },
         {
             "id": 4,
-            "title": "The Original Super Donut",
-            "price": 999,
+            "title": "Chciken grill",
+            "price": 30,
             "image": "./images/product-4.jpg"
         },
         {
             "id": 5,
-            "title": "The Original Super Donut",
-            "price": 250,
+            "title": "Mexican Omlette",
+            "price": 5,
             "image": "./images/product-5.jpg"
 
         },
         {
             "id": 6,
-            "title": "The Original Super Donut",
-            "price": 850,
+            "title": "Grilled Shawarma",
+            "price": 12,
             "image": "./images/product-6.jpg"
 
         },
         {
             "id": 7,
-            "title": "The Original Super Donut",
-            "price": 600,
+            "title": "Aloo Samosa",
+            "price": 5,
             "image": "./images/product-7.jpg"
         },
         {
             "id": 8,
-            "title": "The Original Super Donut",
-            "price": 350,
+            "title": "Red Sausage Pasta",
+            "price": 13,
             "image": "./images/product-8.jpg"
         },
         {
             "id": 9,
-            "title": "The Original Super Donut",
-            "price": 799,
-            "image": "./images/product-8.jpg"
+            "title": "Chicken wings",
+            "price": 10,
+            "image": "./images/product-9.jpg"
         },
         {
             "id": 10,
-            "title": "The Original Super Donut",
-            "price": 150,
-            "image": "./images/product-9.jpg"
+            "title": "full grilled bird",
+            "price": 35,
+            "image": "./images/product-10.jpg"
         },
         {
             "id": 11,
-            "title": "The Original Super Donut",
-            "price": 650,
-            "image": "slide2.jpg"
+            "title": "mutton 65",
+            "price": 25,
+            "image": "./images/product-11.jpg"
         },
         {
             "id": 12,
-            "title": "The Original Super Donut",
-            "price": 650,
-            "image": "./images/product-7.jpg"
-        },
-        {
-            "id": 15,
-            "title": "The Original Super Donut",
-            "price": 799,
-            "image": "./images/product-8.jpg"
-        },
-        {
-            "id": 14,
-            "title": "The Original Super Donut",
-            "price": 150,
-            "image": "./images/product-9.jpg"
+            "title": "fish fry",
+            "price": 20,
+            "image": "./images/product-12.jpg"
         },
         {
             "id": 13,
-            "title": "The Original Super Donut",
-            "price": 650,
-            "image": "./images/product-7.jpg"
+            "title": "Prawns curry",
+            "price": 30,
+            "image": "./images/product-13.jpg"
+        },
+        {
+            "id": 14,
+            "title": "veg thali combo",
+            "price": 65,
+            "image": "./images/product-14.jpg"
+        },
+        {
+            "id": 15,
+            "title": "non-veg thali combo",
+            "price": 55,
+            "image": "./images/product-15.jpg"
         },
         {
             "id": 16,
-            "title": "The Original Super Donut",
-            "price": 650,
-            "image": "./images/product-7.jpg"
+            "title": "pulao",
+            "price": 19,
+            "image": "./images/product-16.jpg"
+        },
+        {
+            "id": 17,
+            "title": "Strawberry icecream",
+            "price": 15,
+            "image": "./images/product-17.jpg"
+        },
+        {
+            "id": 18,
+            "title": "mint icecream",
+            "price": 18,
+            "image": "./images/product-18.jpg"
+        },
+        {
+            "id": 19,
+            "title": "pineapple icecream",
+            "price": 19,
+            "image": "./images/product-19.jpg"
+        },
+        {
+            "id": 20,
+            "title": "dry fruit icecream",
+            "price": 25,
+            "image": "./images/product-20.jpg"
         }
     ]
 }
