@@ -1,5 +1,5 @@
 .box{
-  width: 820px;
+  width: 850px;
   float: right;
   font-family: 'Freckle Face', cursive;
   font-size: 20px;
@@ -36,7 +36,7 @@
 
 .wd img{
   top: 2px;
-  left: 1%;
+  left: 100%;
 }
 
 .wd h1{

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team- The Taste Company</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="box">
@@ -28,11 +29,30 @@
         <img src="brand_logo.png" style="float: left;" width="85px" alt="logo">
         <h1>THE TASTE COMPANY ®️</h1>        
     </div>
+    <section class="cart__overlay">
+        <div class="cart">
+          <span class="close__cart">
+            <svg>
+              <use xlink:href="./images/sprite.svg#icon-cross"></use>
+            </svg>
+          </span>
+          <h1>Your Cart</h1>
+          <div class="cart__centent">
+        
+          </div>
+    
+          <div class="cart__footer">
+            <h3>Total: $ <span class="cart__total">0</span></h3>
+            <button class="clear__cart btn">Clear Cart</button>
+          </div>
+        </div>
+      </section>
+      <script src="app.js"></script>
     <footer>
         <div class="main-content">
           <div class="left box">
-              <h3>We are maintained by :</h3>
-              <div class="content">
+            <h3>We are maintained by :</h3>
+            <div class="content">
                 <p>The Taste Company ®️  Groups Pvt Ltd</p>   
               </div>
           </div>

@@ -16,6 +16,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Freckle+Face&family=Knewave&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Freckle+Face&family=Knewave&family=Zen+Dots&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
     body{
 font-family: latha;
@@ -46,12 +47,30 @@ background-size: cover;
         <img src="brand_logo.png" style="float: left;" width="85px" alt="logo">
         <h1>THE TASTE COMPANY ®️</h1>        
     </div>
+    <section class="cart__overlay">
+        <div class="cart">
+          <span class="close__cart">
+            <svg>
+              <use xlink:href="./images/sprite.svg#icon-cross"></use>
+            </svg>
+          </span>
+          <h1>Your Cart</h1>
+          <div class="cart__centent">
+        
+          </div>
     
+          <div class="cart__footer">
+            <h3>Total: $ <span class="cart__total">0</span></h3>
+            <button class="clear__cart btn">Clear Cart</button>
+          </div>
+        </div>
+      </section>
+      <script src="app.js"></script>
     <footer>
         <div class="main-content">
           <div class="left box">
-              <h2>We are maintained by :</h2>
-              <div class="content">
+            <h3>We are maintained by :</h3>
+            <div class="content">
                 <p>The Taste Company ®️  Groups Pvt Ltd</p>   
               </div>
           </div>

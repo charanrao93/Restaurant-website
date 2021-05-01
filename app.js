@@ -72,13 +72,13 @@ class UI {
       const inCart = cart.find(item => item.id === parseInt(id, 10));
 
       if (inCart) {
-        button.innerText = "In Cart";
+        button.innerText = "added to cart";
         button.disabled = true;
       }
 
       button.addEventListener("click", e => {
         e.preventDefault();
-        e.target.innerHTML = "In Cart";
+        e.target.innerHTML = "added to cart";
         e.target.disabled = true;
 
         // Get product from products

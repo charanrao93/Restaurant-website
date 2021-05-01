@@ -121,6 +121,31 @@
             "title": "dry fruit icecream",
             "price": 25,
             "image": "./images/product-20.jpg"
+        },
+        {
+            "id": 21,
+            "title": "mint icecream",
+            "price": 18,
+            "image": "./images/product-18.jpg"
+        },
+        {
+            "id": 22,
+            "title": "pineapple icecream",
+            "price": 19,
+            "image": "./images/product-19.jpg"
+        },
+        {
+            "id": 23,
+            "title": "mint icecream",
+            "price": 18,
+            "image": "./images/product-18.jpg"
+        },
+        {
+            "id": 24,
+            "title": "pineapple icecream",
+            "price": 19,
+            "image": "./images/product-19.jpg"
         }
+     
     ]
 }
