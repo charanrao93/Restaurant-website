@@ -274,3 +274,4 @@ document.addEventListener("DOMContentLoaded", async () => {
   ui.getButtons();
   ui.cartLogic();
 });
+

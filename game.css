@@ -1,0 +1,223 @@
+.box{
+    width: 120px;
+    font-family: 'Freckle Face', cursive;
+    font-size: 20px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    
+  }
+.box ul li a{
+    color: green;
+}
+html
+{
+    height:100%;
+    margin:0;
+    font-family: 'Architects Daughter', cursive;
+}
+body
+{
+    background: linear-gradient(#c1c1c1,white,#c1c1c1);
+}
+#introPage,#singlePage,#endPage
+{
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;   
+    margin:auto;
+}
+#introPage
+{
+    width:850px;
+    height:600px;
+    display: block;
+}
+#introText
+{
+    width:650px;
+    height:260px;
+    margin:40px auto;
+}
+#introText p,#singlePage p
+{
+    font-size:30px; 
+    text-align:center;    
+}
+#buttonContainer
+{
+    width:500px;
+    height:75px;
+    margin:50px auto;
+}
+#sp
+{
+    align-items: center;   
+     background:green; 
+    box-sizing:border-box;
+    width:200px;
+    height:60px;
+    cursor:pointer;
+    line-height:60px;
+    font-size:25px;
+    border-radius:10px;
+    text-align:center;
+    margin:20px; 
+    box-shadow:2px 2px #00c100;
+}
+#hangmanImg
+{
+    margin: auto;
+}
+
+#singlePage
+{
+    display:none;
+    width:850px;
+    height:600px;
+}
+#singlePage p
+{
+    margin:20px auto 50px auto;
+}
+#categoryHolder
+{
+    width:100%;
+    height:530px;
+    line-height:60px;
+    
+}
+#category1
+{
+    width:800px;
+    height:80px;
+    margin:10px auto;
+    font-size:30px;
+}
+#carbrand,#country
+{
+    width:380px;
+    height:70px;
+    float:left;  
+    text-align:center;
+    margin:10px;
+    background:linear-gradient(green,white);
+    border-radius:10px;
+    cursor:pointer;
+}
+
+#gamePage
+{
+    display:none;
+    text-align:center;
+}
+#categoryName {
+    font-size: 40px;
+    margin:10px auto;
+}
+#mistakes
+{
+    width:150px;
+    height:30px;
+    font-size:25px;
+    color:red;
+    margin:0px auto 20px auto;
+}
+#letterBank
+{
+    width:780px;
+    height:125px;
+    margin:10px auto;
+}
+#letterBank div
+{
+    float:left;
+    font-size:25px;
+    margin:5px;
+    width:50px;
+    height:40px;
+    background-color:#a1a1a1;
+    cursor:pointer;
+}
+#wordWrap
+{
+    width:800px;
+    height:150px;
+    margin:0px auto;
+}
+ #letter1, #letter2, #letter3, #letter4, #letter5, #letter6, #letter7, #letter8, #letter9, #letter10{
+        font-family: 'Gloria Hallelujah', cursive;
+        width: 50px;
+        height: 60px;
+        margin:0px;
+        text-align: center;
+        font-size: 50px;
+        line-height: 60px;
+        padding:0;
+    }
+ #underline1, #underline2, #underline3, #underline4, #underline5, #underline6, #underline7, #underline8, #underline9, #underline10, #underline11, #underline12, #underline13, #underline14, #underline15, #underline16, #underline17, #underline18, #underline19, #underline20, #underline21, #underline22, #underline23, #underline24, #underline25{
+        display: none;
+        float: left;
+        width: 50px;
+        height: 60px;
+        margin-right: 5px;
+        margin-bottom:0px;
+        padding:0;
+    }
+ #hangImg
+ {
+     margin:20px auto;
+     clear:both;
+     display:block;
+ }
+#endPage
+{
+    display:none;
+    width:850px;
+    height:600px;
+}
+#winStatus
+{
+    font-size:70px;
+    text-align:center;
+    color:green;
+    margin-top:20px;
+
+}
+#btnContainer
+{
+    width:400px;
+    height:200px;
+    margin:10px auto;
+}
+#playAgain,#mainMenu
+{
+    width:400px;
+    height:40px;
+    font-size:25px;
+    line-height:40px;
+    background-color:green;
+    color:white;
+    margin:10px auto;
+    border-radius:12px;
+    text-align:center;
+    cursor:pointer;
+}
+#guessedWord
+{
+    width:400px;
+    height:40px;
+    font-size:30px;
+    line-height:40px;
+    color:green;
+    margin:20px auto;
+}
+#hangImgWin
+{
+    width:220px;
+    margin:20px auto;
+    clear:both;
+    display:block;
+}

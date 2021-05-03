@@ -33,7 +33,7 @@ background-size: cover;
             <li><a  href="index.html">Home</a></li>
             <li><a class="current" href="reservation.html">Reservation</a></li>
             <li><a href="menu.html">Menu</a></li>
-            <li><a href="Team.html">Team</a></li>
+            <li><a href="gallery.html">gallery</a></li>
             <li><a href="contact.html">contact us</a></li>
             <li><a href="game.html">game</a></li>
             <div class="cart__icon">
@@ -56,9 +56,7 @@ background-size: cover;
           </span>
           <h1>Your Cart</h1>
           <div class="cart__centent">
-        
-          </div>
-    
+          </div>  
           <div class="cart__footer">
             <h3>Total: $ <span class="cart__total">0</span></h3>
             <button class="clear__cart btn">Clear Cart</button>
@@ -66,17 +64,69 @@ background-size: cover;
         </div>
       </section>
       <script src="app.js"></script>
+      <br>
+      <br>
+      <section class = "banner">
+        <h2>BOOK YOUR TABLE NOW</h2>
+        <div class = "card-container">
+            <div class = "card-img">
+                <img src="brand_logo.png" alt="">
+            </div>
+
+            <div class = "card-content">
+                <h3>Reservation</h3>
+                <form>
+                    <div class = "form-row">
+                        <select name = "days">
+                            <option value = "day-select">Select Day</option>
+                            <option value = "sunday">Sunday</option>
+                            <option value = "monday">Monday</option>
+                            <option value = "tuesday">Tuesday</option>
+                            <option value = "wednesday">Wednesday</option>
+                            <option value = "thursday">Thursday</option>
+                            <option value = "friday">Friday</option>
+                            <option value = "saturday">Saturday</option>
+                        </select>
+
+                        <select name = "hours">
+                            <option value = "hour-select">Select Hour</option>
+                            <option value = "10">10: 00</option>
+                            <option value = "10">12: 00</option>
+                            <option value = "10">14: 00</option>
+                            <option value = "10">16: 00</option>
+                            <option value = "10">18: 00</option>
+                            <option value = "10">20: 00</option>
+                            <option value = "10">22: 00</option>
+                        </select>
+                    </div>
+
+                    <div class = "form-row">
+                        <input type = "text" placeholder="Full Name">
+                        <input type = "text" placeholder="Phone Number">
+                    </div>
+
+                    <div class = "form-row">
+                        <input type = "number" placeholder="How Many Persons?" min = "1">
+                        <input type = "submit" value = "BOOK TABLE">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <div class="main-content">
           <div class="left box">
-            <h3>We are maintained by :</h3>
-            <div class="content">
-                <p>The Taste Company ®️  Groups Pvt Ltd</p>   
+            <h3>About Us </h3>
+            <div class="content-footer">
+                <p>We serve the best to be the best .</p>
+                <p>The Taste Company ®️  Groups Pvt Ltd.</p>   
+                <p>Telangana ,INDIA .</p>                  
               </div>
           </div>
 
           <div class="center box">
-            <div class="content">
+            <div class="content-footer">
                 <form action="#">
                     <div class="email">
                         <div class="text">Subscribe Us </div>
@@ -90,7 +140,7 @@ background-size: cover;
             </div>
          </div>
          <div class="Right box">
-            <div class="content">
+            <div class="content-footer">
                 <h5>Follow us on:</h5>
                 <a href="#" class="fa fa-facebook"></a>
                 <a href="#" class="fa fa-twitter"></a>
