@@ -6,7 +6,6 @@ var numRight = 0;
 var mistake = 7;
 var nextImg = 1;
 var divWidth = 55;
-var sound = new Audio();
 var carbrands = ["volvo","bmw","toyota","mercedes benz","kia","honda"];
 var countries = ["africa","india","united states","canada","australia"];
 function sp()
