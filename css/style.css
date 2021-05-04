@@ -1,3 +1,5 @@
+/* header navigation */
+
 .box{
   width: 850px;
   float: right;
@@ -25,6 +27,9 @@
 }
 .box ul li a :hover {color: white;}
 
+/* header navigation end*/
+
+/* brand text */
 .wd{
   width: 700px;
   height: 90px;
@@ -44,6 +49,11 @@
   color: green;
   font-size: 30px;
 }
+
+/* brand text end */
+
+/* slide show */
+
 .slidershow{
   width: 1520px;
   height: 500px;
@@ -114,11 +124,19 @@ input[name="r"]{
   margin-left: -80%;
 }
 
+/* slider end  */
+
+/*  */
+
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "montserrat",sans-serif;
 }
+
+/* special menu  */
 
 .wrapper{
   margin-top: 35%;
@@ -179,6 +197,9 @@ input[name="r"]{
   width: 300px;
   height: 110px;
 }
+/* special menu end  */
+
+/* footer start */
 
 .footer{
   position: fixed;
@@ -195,28 +216,6 @@ input[name="r"]{
   flex-basis: 50%;
   padding: 10px 20px;
 }
-
-.box h2{
-  font-size: 1.125rem;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.box .content-footer{
-  margin: 20px 0 0 0;
-  font-family: sans-serif;
-}
-
-.left .content-footer p{
-  text-align: justify;
-}
-.left .content-footer .social{
-  margin: 20px 0 0 0;
-}
-.left .content-footer .social a{
-  padding: 0 2px;
-}
-
 .center .content-footer .email .text{
   background-color: #050505;
   color: white;
@@ -280,6 +279,11 @@ input[name="r"]{
   --grey2: #f9fafd;
   --warn: #e71247;
 }
+
+/* footer end  */
+
+/* menu page */
+
 *,
 *::before,
 *::after {
@@ -340,7 +344,6 @@ li {
 }
 
 
-
 .food {
   display: none;
 }
@@ -377,7 +380,7 @@ li {
 .rating span svg {
   width: 1.6rem;
   height: 1.6rem;
-  fill: var(--orange);
+  fill: green;
 }
 
 .products {
@@ -617,11 +620,12 @@ li {
     margin-bottom: 1rem;
   }
 }
-*{
-  margin: 0;
-  padding: 0;
-  font-family: "montserrat",sans-serif;
-}
+
+/* menu page end*/
+
+
+/* contact us start*/
+
 .contact-section{
   background-size: cover;
   padding: 40px 0;
@@ -715,11 +719,10 @@ textarea.contact-form-text{
 	color: #ffffff;
 	font-weight: 300;
 }
-*{
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
+/*contact us  end */
+
+/* reservation start */
+
 body{
   font-family: 'Poppins', sans-serif;
 }
@@ -789,13 +792,10 @@ form input[type = submit]:hover{
       height: 330px;
   }
 }
-*{
-  margin: 0;
-  padding: 0;
-  font-family: "montserrat",sans-serif;
-  box-sizing: border-box;
-}
 
+/* reservation  end */
+
+/* gallery section*/
 .gallery-section{
   width: 100%;
   padding: 60px 0;
@@ -861,3 +861,4 @@ form input[type = submit]:hover{
     flex: 100%;
   }
 }
+/* gallery section end */
