@@ -49,34 +49,6 @@
   font-family: 'Zen Dots', cursive;
   color: green;
   font-size: 30px;
-
-}
-
-.wd h3{
-  color: darkgray;
-  font-size: 12.5px;
-  font-family: 'Bangers', cursive;
-  font-family: 'Freckle Face', cursive;
-  font-family: 'Knewave', cursive;
-
-}
-
-.wd h5{
-  color: darkgreen;
-  font-family: 'Freckle Face', cursive;
-font-family: 'Knewave', cursive;
-
-}
-.wd h4{
-  text-align: justify;
-  color: darkgray;
-  font-weight: normal;
-  font-family: 'Freckle Face', cursive;
-  font-family: 'Knewave', cursive;
-  font-size: 18px;
-  text-align: right;
-  float: right;
-  
 }
 
 .opt form ,input[type="button"]{
