@@ -102,7 +102,7 @@ input[name="r"]{
 
 .slide{
   width: 20%;
-  transition: 0.6s;
+  transition: width 0.6s;
 }
 .slide img{
   width: 100%;
@@ -126,7 +126,7 @@ input[name="r"]{
 
 /* slider end  */
 
-/*  */
+/* special menu  */
 
 
 *{
@@ -136,7 +136,6 @@ input[name="r"]{
   font-family: "montserrat",sans-serif;
 }
 
-/* special menu  */
 
 .wrapper{
   margin-top: 35%;
